@@ -40,40 +40,14 @@ char *colors[] = {
 
 // Add change back to normal 
 // after print in color functions.
-void print_red(char* string)
-{
-   printf("%s%s", RED, string);
-}
 
-void print_green(char* string)
-{
-   printf("%s%s", GRN, string);
-}
-
-void print_yellow(char* string)
-{
-   printf("%s%s", YEL, string);
-}
-
-void print_blue(char* string)
-{
-   printf("%s%s", BLU, string);
-}
-
-void print_magenta(char* string)
-{
-   printf("%s%s", MAG, string);
-}
-
-void print_cyan(char* string)
-{
-   printf("%s%s", CYN, string);
-}
-
-void print_white(char* string)
-{
-   printf("%s%s", WHT, string);
-}
+void print_red(char* string);
+void print_green(char* string);
+void print_yellow(char* string);
+void print_blue(char* string);
+void print_magenta(char* string);
+void print_cyan(char* string);
+void print_white(char* string);
 
 
 // -------- BROKEN -------- 
