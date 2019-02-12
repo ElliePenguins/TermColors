@@ -18,5 +18,25 @@ UPDATED:
 	Place files in the appropriate directories for use
 	with your particular system.
 
+To Use the share object:
+
+	gcc pratice.c -L. -l:termcolors.so
+
+
+A line like this may be required to find the .so
+if running out of a non standard directory.
+
+	LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/yourLibDir
+	export LD_LIBRARY_PATH
+
+ 
+! Warning !	! Warning !	! Warning !
+
+     Be careful when modifying env variables.
+
+
 TODO:
 	Proper build script for install.
+
+	Proper system integration.
+	
