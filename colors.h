@@ -26,21 +26,6 @@ char *colors[] = {
   BLU, MAG, CYN, WHT
 }; 
 
-/**********************************
- *			
- *  The below functions work,
- *  %s for hex has too much	
- *  overhead. 	
- *
- *  TODO:	
- *  Reset after color set:	
- *  eg. ( RED "%s" NRM );
- *		
- **********************************/
-
-// Add change back to normal 
-// after print in color functions.
-
 void print_red(char* string);
 void print_green(char* string);
 void print_yellow(char* string);
