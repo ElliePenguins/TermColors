@@ -3,6 +3,8 @@
 Tiny header file to provide Linux terminal color output.
 -----
 
+![terminal output](images/colors.jpg)
+
 Defines some color codes, An array that can be iterated through
 and some simple prebuilt print statements. 
 
