@@ -36,11 +36,4 @@ void print_white(char* string);
 
 
 // -------- BROKEN -------- 
-
-/* BROKEN FIX LATER!
-void print_any(char* string, char* color)
-{
-   printf("%s%s", color, string);
-}
-*/
-
+//void print_any(char* string, char* color);
